@@ -42,4 +42,31 @@
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.subscribe-background{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.submit-button{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100% );
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: grey;
+
+}
+footer{
+    text-align: center;
 }
